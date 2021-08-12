@@ -1,0 +1,19 @@
+{
+  "name": "cf-ddns",
+  "version": "0.0.0",
+  "description": "Automatically updates the DNS record when IP changes.",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1",
+    "zx": "^2.1.0"
+  }
+}

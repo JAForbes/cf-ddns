@@ -1,0 +1,11 @@
+[Unit]
+Description=Cloudflare DDNS
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/cf-ddns/cf-ddns
+User=cf-ddns
+ExecStart=/bin/npm start
+
+[Install]
+WantedBy=multi-user.target

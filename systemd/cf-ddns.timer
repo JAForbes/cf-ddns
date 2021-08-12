@@ -1,0 +1,9 @@
+[Unit]
+Description=Runs Dynamic DDNS on a Timer
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target
